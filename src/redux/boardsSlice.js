@@ -3,12 +3,10 @@ import data from '../data/data.json'
 
 const boardsSlice = createSlice({
     name: 'boards',
-    initialState: {
-        boards: data.boards
-    },
-    reducers:{
+    initialState: data.boards,
+    // reducers:{
 
-    }
+    // }
 //     reducers: {
 //         addBoard: (state, action) => {
 //             state.boards.push(action.payload)
